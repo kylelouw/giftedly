@@ -1,0 +1,56 @@
+/* Global styles */
+/* #region */
+:root{
+    /* BRAND COLORS */
+    --brand-primary: #5ce0e6;   
+    --brand-secondary: #f8bc06; 
+    --brand-accent: #21a6c5;   
+
+    /* NEUTRALS */
+    --white: #fefbfb;
+    --black: #1a1a1a;
+    --light-black:#0e0f0f;
+    --gray-light: #cacaca;
+    --gray-dark: #4e4e4e;
+
+    /* TEXT COLORS */
+    --text-heading-light: var(--white);
+    --text-body-light: var(--gray-light);
+    --text-heading-dark: var(--black);
+    --text-body-dark: var(--gray-dark);
+
+    /* UTILITY */
+    --transparent: transparent;
+
+    /* PADDING AND RADIUS */
+    --br-x-small: 4px;
+    --br-small: 8px;
+    --br-medium: 16px;
+    --br-large: 24px;
+    --br-xl-large: 32px;
+    --br-xxl-large: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--white);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, li, a, span {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* #endregion */
